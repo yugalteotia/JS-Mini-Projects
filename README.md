@@ -36,6 +36,11 @@ In this repository, you'll find a variety of mini projects, each focusing on dif
    - *Description*: Used DOM manipulation techniques to have an interactive UI also created well segregated logic by dividing into functions for easy understanding.
    - *Technologies Used*: HTML, CSS, JS
 
+5. **Keyboard-input-detection**: Press any key from your keyboard to detect.
+   <!-- - *Link to Live Demo*: [Demo Link](#) -->
+   - *Description*: window object is used to scan keyboard input event.
+   - *Technologies Used*: HTML, CSS, JS
+
 6. **Infinite-Colors**: Press Start to change background color of the page at most random basis.
    <!-- - *Link to Live Demo*: [Demo Link](#) -->
    - *Description*: A logic is used to create random hex values of colors. Events and intervals in JS are also used.
