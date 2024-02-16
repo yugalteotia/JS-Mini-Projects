@@ -1,7 +1,7 @@
 const startBtn = document.querySelector("#start");
 const stopBtn = document.querySelector("#stop");
 const body = document.querySelector("body");
-let colorChangeIntervalId;
+let colorChangeIntervalId = null;
 
 const hexArr = [
   "0",
@@ -40,7 +40,12 @@ const changeColor = function () {
 };
 
 const colorChangeInterval = function () {
-  colorChangeIntervalId = setInterval(changeColor, 750);
+  // this check make sures that start button works only once until stopped.
+  // if we dont do this and user clicks start button multiple times,
+  // pressing stop will only stop the change of color for one interval only.
+  if (!colorChangeIntervalId) {
+    colorChangeIntervalId = setInterval(changeColor, 500);
+  }
 };
 
 const stopColorChange = function () {
