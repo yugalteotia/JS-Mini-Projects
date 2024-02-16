@@ -1,0 +1,61 @@
+body {
+    background-color: #414141;
+    margin: 0;
+    color: blanchedalmond;
+    text-shadow: 0 0 25px black, 0 0 25px black;
+}
+
+.canvas {
+    margin: 100px auto 100px;
+    width: 80%;
+    text-align: center;
+}
+
+.button {
+    display:inline-block;
+    border-radius: 25px;
+    margin: 5px;
+    border: 2x;
+    border-style: groove;
+    border-color: blanchedalmond;
+    width: 100px;
+    height: 100px;
+}
+
+#violet{
+    background-color: violet;
+}
+
+#indigo{
+    background-color: indigo;
+}
+
+#blue{
+    background-color: blue;
+}
+
+#green{
+    background-color: green;
+}
+
+#yellow{
+    background-color: yellow;
+}
+
+#orange{
+    background-color: orange;
+}
+
+#red{
+    background-color: red;
+}
+
+#white, #reset{
+    display: block;
+    width: 25%;
+    margin: 25px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
