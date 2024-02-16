@@ -45,6 +45,7 @@ const colorChangeInterval = function () {
 
 const stopColorChange = function () {
   clearInterval(colorChangeIntervalId);
+  colorChangeIntervalId = null;
 };
 
 startBtn.addEventListener("click", colorChangeInterval);
