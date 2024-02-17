@@ -46,6 +46,11 @@ In this repository, you'll find a variety of mini projects, each focusing on dif
    - *Description*: A logic is used to create random hex values of colors. Events and intervals in JS are also used.
    - *Technologies Used*: HTML, CSS, JS
    
+7. **Github-Profile-Fetcher**: Fetch any legit github profile by entering the username.
+   <!-- - *Link to Live Demo*: [Demo Link](#) -->
+   - *Description*: API fetching is done using XMLHttpRequest object and then a card is shown for the username entered.
+   - *Technologies Used*: HTML, CSS, JS
+   
    <!-- Add more projects as needed -->
 
 ## Usage
