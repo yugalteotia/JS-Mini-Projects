@@ -79,3 +79,7 @@ Contributions are welcome! If you'd like to add your own mini project to this re
 ## License
 
 This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+
+## CHANGES DONE TO THIS FILE 
+- IT IS JUST A SMALL CHANGE IN README FILE
