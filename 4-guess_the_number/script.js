@@ -17,7 +17,7 @@ function validateGuess() {
   const userGuess = parseInt(usrInp.value);
   if (userGuess >= 1 && userGuess <= 100) {
     if (noOfGuesses++ < 10) {
-      checkNumber(generatedNumber);
+      if (checkNumber(userGuess));
       startTheGame(userGuess);
     } else {
       displayMessage(
@@ -39,11 +39,12 @@ function startTheGame() {
   remGuesses.textContent = 10 - noOfGuesses;
 }
 
-function checkNumber(generatedNumber) {
-  const userGuess = parseInt(usrInp.value);
-  if (userGuess === generatedNumber)
+function checkNumber(userGuess) {
+  if (userGuess === generatedNumber) {
     displayMessage("Congo!!! You guessed the number correctly.");
-  else if (userGuess > generatedNumber)
+    endGame();
+    return true;
+  } else if (userGuess > generatedNumber)
     displayMessage(
       "Your guessed number is greater than the original number",
       true
